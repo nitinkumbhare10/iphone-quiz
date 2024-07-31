@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d1efa86846.js" crossorigin="anonymous"></script>
+    <title>GIVE ANSWERS AND WIN IPHONE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h2>GIVE ANSWERS AND WIN IPHONE</h2>
+    </header>
+    
+    <main class="container">
+        <form id="userForm" class="userForm">
+            <img src="iphone.png" alt="Jio Logo" class="logo">
+            <div class="quiz-section">
+                <div class="quiz-question">
+                    <label class="question-label">'Jan Gan Man' kisne likha tha?</label>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="question1" value="A"> A) Mahatma Gandhi</label>
+                        <label><input type="radio" name="question1" value="B"> B) Bankim Chandra Chattopadhyay</label>
+                        <label><input type="radio" name="question1" value="C"> C) Ravindranath Tagore</label>
+                        <label><input type="radio" name="question1" value="D"> D) Sarojini Naidu</label>
+                    </div>
+                </div>
+                <div class="quiz-question">
+                    <label class="question-label">Bharat ka rashtriya pakshi kaun hai? </label>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="question2" value="A"> A) Tota</label>
+                        <label><input type="radio" name="question2" value="B"> B) Mor</label>
+                        <label><input type="radio" name="question2" value="C"> C) Koyal</label>
+                        <label><input type="radio" name="question2" value="D"> D) Hans</label>
+                    </div>
+                </div>
+                <div class="quiz-question">
+                    <label class="question-label">Bharat ki rajdhani kya hai?</label>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="question3" value="A"> A) Mumbai</label>
+                        <label><input type="radio" name="question3" value="B"> B) Kolkata</label>
+                        <label><input type="radio" name="question3" value="C"> C) Chennai</label>
+                        <label><input type="radio" name="question3" value="D"> D) Nayi Delhi</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group buttons">
+                <button type="button" id="firstButton" class="btn"><i class="fa-brands fa-whatsapp"></i>&nbsp;&nbsp;अपने 5 दोस्तो को शेयर करे</button>
+                <button type="button" id="secondButton" class="btn" disabled onclick="openRedirect()">SUBMIT ANSWERS</button>
+            </div>
+        </form>
+    </main>
+    
+    <footer class="footer">
+        <p>Copyright © 2024. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
