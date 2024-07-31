@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }, 1000);
 
-        const message = "Jawaab do aur jeeto iPhone 15 pro! Link par click karke abhi participate karein! https://iphonequiz.netlify.app/";
+        const message = "Sahi jawaab do aur jeeto iPhone 15 pro! Link par click karke abhi participate karein! https://iphonequiz.netlify.app/";
         const imageURL = window.location.origin + "/iphone.png";
 
         const whatsappURL = `https://wa.me/?text=${encodeURIComponent(message)}&media=${encodeURIComponent(imageURL)}`;
